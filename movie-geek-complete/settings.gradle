@@ -1,0 +1,1 @@
+include ':moviegeek_proclient', ':moviegeek_paidclient', ':moviegeek_moviedb', ':moviegeek_free'

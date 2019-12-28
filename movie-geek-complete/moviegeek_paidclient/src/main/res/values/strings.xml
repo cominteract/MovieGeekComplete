@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MovieGeek_PaidClient</string>
+    <string name="search_title">Search</string>
+    <string name="previous_title">Previous</string>
+    <string name="next_title">Next</string>
+    <string name="plot_title">Plot : </string>
+    <string name="box_office_title">Box Office : </string>
+    <string name="popularity_title">Popularity : </string>
+    <string name="average_vote_title">Average Vote : </string>
+    <string name="rated_title">Rated : </string>
+    <string name="similar_movies_title">Similar Movies</string>
+    <string name="recommendations_title">Recommendations</string>
+    <string name="trailers_title">Trailers</string>
+    <string name="reviews_title">Reviews</string>
+</resources>

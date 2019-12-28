@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/movie-geek-complete.iml" filepath="$PROJECT_DIR$/movie-geek-complete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moviegeek_free/moviegeek_free.iml" filepath="$PROJECT_DIR$/moviegeek_free/moviegeek_free.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moviegeek_moviedb/moviegeek_moviedb.iml" filepath="$PROJECT_DIR$/moviegeek_moviedb/moviegeek_moviedb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moviegeek_paidclient/moviegeek_paidclient.iml" filepath="$PROJECT_DIR$/moviegeek_paidclient/moviegeek_paidclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moviegeek_proclient/moviegeek_proclient.iml" filepath="$PROJECT_DIR$/moviegeek_proclient/moviegeek_proclient.iml" />
+    </modules>
+  </component>
+</project>

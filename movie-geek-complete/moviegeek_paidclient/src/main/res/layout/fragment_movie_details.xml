@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="5dp"
+        android:background="#27a"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/movieDetailsImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:id="@+id/movieDetailsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:id="@+id/movieDetailsDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:id="@+id/movieDetailsGenre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:padding="8dp"
+        android:text="@string/plot_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:id="@+id/movieDetailsPlot"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#2a7"
+                android:text="@string/rated_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+
+                android:id="@+id/movieDetailsRated"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:textColor="#2a7"
+                android:text="@string/average_vote_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+
+                android:id="@+id/movieDetailsAverageVote"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#2a7"
+                android:text="@string/popularity_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+
+                android:id="@+id/movieDetailsPopularity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:textColor="#2a7"
+                android:text="@string/box_office_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+
+                android:id="@+id/movieDetailsBoxOffice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight=".5"
+            android:text="@string/trailers_title"
+            android:id="@+id/movieDetailsTrailerButton"
+            android:layout_width="0dp"
+            android:textSize="14sp"
+            android:textColor="#27a"
+            android:background="#00000000"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_weight=".5"
+            android:text="@string/reviews_title"
+            android:id="@+id/movieDetailsReviewButton"
+            android:layout_width="0dp"
+            android:textSize="14sp"
+            android:textColor="#27a"
+            android:background="#00000000"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight=".5"
+            android:text="@string/similar_movies_title"
+            android:id="@+id/movieDetailsSimilarButton"
+            android:layout_width="0dp"
+            android:textSize="14sp"
+            android:textColor="#27a"
+            android:background="#00000000"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:padding="5dp"-->
+        <!--android:background="#2a7"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+       <!---->
+    <!--</LinearLayout>-->
+</LinearLayout>
