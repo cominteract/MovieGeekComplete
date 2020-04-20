@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/movie-geek-complete.iml" filepath="$PROJECT_DIR$/movie-geek-complete.iml" />
-      <module fileurl="file://$PROJECT_DIR$/moviegeek_free/moviegeek_free.iml" filepath="$PROJECT_DIR$/moviegeek_free/moviegeek_free.iml" />
-      <module fileurl="file://$PROJECT_DIR$/moviegeek_moviedb/moviegeek_moviedb.iml" filepath="$PROJECT_DIR$/moviegeek_moviedb/moviegeek_moviedb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/moviegeek_paidclient/moviegeek_paidclient.iml" filepath="$PROJECT_DIR$/moviegeek_paidclient/moviegeek_paidclient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/moviegeek_proclient/moviegeek_proclient.iml" filepath="$PROJECT_DIR$/moviegeek_proclient/moviegeek_proclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-geek-complete.iml" filepath="$PROJECT_DIR$/movie-geek-complete.iml" group="movie-geek-complete" />
+      <module fileurl="file://$PROJECT_DIR$/moviegeek_free/moviegeek_free.iml" filepath="$PROJECT_DIR$/moviegeek_free/moviegeek_free.iml" group="movie-geek-complete/moviegeek_free" />
+      <module fileurl="file://$PROJECT_DIR$/moviegeek_moviedb/moviegeek_moviedb.iml" filepath="$PROJECT_DIR$/moviegeek_moviedb/moviegeek_moviedb.iml" group="movie-geek-complete/moviegeek_moviedb" />
+      <module fileurl="file://$PROJECT_DIR$/moviegeek_paidclient/moviegeek_paidclient.iml" filepath="$PROJECT_DIR$/moviegeek_paidclient/moviegeek_paidclient.iml" group="movie-geek-complete/moviegeek_paidclient" />
+      <module fileurl="file://$PROJECT_DIR$/moviegeek_proclient/moviegeek_proclient.iml" filepath="$PROJECT_DIR$/moviegeek_proclient/moviegeek_proclient.iml" group="movie-geek-complete/moviegeek_proclient" />
     </modules>
   </component>
 </project>

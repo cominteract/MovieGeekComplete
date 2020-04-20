@@ -101,11 +101,13 @@ public class DateRetrieve {
                     public Observable<ArrayList<MovieDB>> apply(MovieDBResult movieDBResult) throws Exception {
                         String nextPage = String.valueOf(Integer.valueOf(page) + 1);
                         int next = Integer.valueOf(nextPage);
+
                         moviesDB.addAll(movieDBResult.getResults());
-                        if (next > movieDBResult.getTotal_results()) {
+                        if (next > movieDBResult.getTotal_results() || next > 45) {
                             resultSize = moviesDB.size();
                             return Observable.just(moviesDB);
                         }
+
                         return Observable.just(moviesDB)
                                 .concatWith(getMovieDBWithPage(title,nextPage));
                     }
